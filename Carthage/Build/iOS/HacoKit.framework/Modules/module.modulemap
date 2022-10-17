@@ -1,0 +1,6 @@
+framework module HacoKit {
+  umbrella header "HacoKit.h"
+
+  export *
+  module * { export * }
+}
