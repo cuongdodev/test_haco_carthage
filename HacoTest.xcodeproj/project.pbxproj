@@ -19,6 +19,7 @@
 		A6559DFA28FD4E17008957F2 /* HacoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A6559DEA28FD4E17008957F2 /* HacoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A6559DFD28FD4E17008957F2 /* HacoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6559DE828FD4E17008957F2 /* HacoKit.framework */; };
 		A6559DFE28FD4E17008957F2 /* HacoKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6559DE828FD4E17008957F2 /* HacoKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A6559E0728FD513C008957F2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A6559E0628FD513C008957F2 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		A6559DEB28FD4E17008957F2 /* HacoKit.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = HacoKit.docc; sourceTree = "<group>"; };
 		A6559DF128FD4E17008957F2 /* HacoKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HacoKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6559DF828FD4E17008957F2 /* HacoKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HacoKitTests.swift; sourceTree = "<group>"; };
+		A6559E0628FD513C008957F2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		A6559DC328FD4DEF008957F2 = {
 			isa = PBXGroup;
 			children = (
+				A6559E0628FD513C008957F2 /* README.md */,
 				A6559DCE28FD4DEF008957F2 /* HacoTest */,
 				A6559DE928FD4E17008957F2 /* HacoKit */,
 				A6559DF728FD4E17008957F2 /* HacoKitTests */,
@@ -272,6 +275,7 @@
 			files = (
 				A6559DDC28FD4DF0008957F2 /* LaunchScreen.storyboard in Resources */,
 				A6559DD928FD4DF0008957F2 /* Assets.xcassets in Resources */,
+				A6559E0728FD513C008957F2 /* README.md in Resources */,
 				A6559DD728FD4DEF008957F2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
