@@ -4,3 +4,8 @@ framework module HacoKit {
   export *
   module * { export * }
 }
+
+module HacoKit.Swift {
+    header "HacoKit-Swift.h"
+    requires objc
+}

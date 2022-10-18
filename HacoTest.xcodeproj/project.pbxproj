@@ -20,6 +20,7 @@
 		A6559DFD28FD4E17008957F2 /* HacoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6559DE828FD4E17008957F2 /* HacoKit.framework */; };
 		A6559DFE28FD4E17008957F2 /* HacoKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6559DE828FD4E17008957F2 /* HacoKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A6559E0728FD513C008957F2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A6559E0628FD513C008957F2 /* README.md */; };
+		A6DAF1FC28FE543800037995 /* HacoViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DAF1FB28FE543800037995 /* HacoViewExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		A6559DF128FD4E17008957F2 /* HacoKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HacoKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6559DF828FD4E17008957F2 /* HacoKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HacoKitTests.swift; sourceTree = "<group>"; };
 		A6559E0628FD513C008957F2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A6DAF1FB28FE543800037995 /* HacoViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HacoViewExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		A6559DC328FD4DEF008957F2 = {
 			isa = PBXGroup;
 			children = (
+				A6DAF1FB28FE543800037995 /* HacoViewExt.swift */,
 				A6559E0628FD513C008957F2 /* README.md */,
 				A6559DCE28FD4DEF008957F2 /* HacoTest */,
 				A6559DE928FD4E17008957F2 /* HacoKit */,
@@ -311,6 +314,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6DAF1FC28FE543800037995 /* HacoViewExt.swift in Sources */,
 				A6559DEC28FD4E17008957F2 /* HacoKit.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -480,6 +484,7 @@
 		A6559DE128FD4DF0008957F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +513,7 @@
 		A6559DE228FD4DF0008957F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
