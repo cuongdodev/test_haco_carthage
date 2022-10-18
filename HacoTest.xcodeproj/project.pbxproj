@@ -21,6 +21,7 @@
 		A6559DFE28FD4E17008957F2 /* HacoKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6559DE828FD4E17008957F2 /* HacoKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A6559E0728FD513C008957F2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A6559E0628FD513C008957F2 /* README.md */; };
 		A6DAF1FC28FE543800037995 /* HacoViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DAF1FB28FE543800037995 /* HacoViewExt.swift */; };
+		A6DAF20328FE5B9500037995 /* HacoViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DAF20228FE5B9500037995 /* HacoViewExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		A6559DF828FD4E17008957F2 /* HacoKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HacoKitTests.swift; sourceTree = "<group>"; };
 		A6559E0628FD513C008957F2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A6DAF1FB28FE543800037995 /* HacoViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HacoViewExt.swift; sourceTree = "<group>"; };
+		A6DAF20228FE5B9500037995 /* HacoViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HacoViewExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 		A6559DE928FD4E17008957F2 /* HacoKit */ = {
 			isa = PBXGroup;
 			children = (
+				A6DAF20228FE5B9500037995 /* HacoViewExt.swift */,
 				A6559DEA28FD4E17008957F2 /* HacoKit.h */,
 				A6559DEB28FD4E17008957F2 /* HacoKit.docc */,
 			);
@@ -314,6 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6DAF20328FE5B9500037995 /* HacoViewExt.swift in Sources */,
 				A6DAF1FC28FE543800037995 /* HacoViewExt.swift in Sources */,
 				A6559DEC28FD4E17008957F2 /* HacoKit.docc in Sources */,
 			);
